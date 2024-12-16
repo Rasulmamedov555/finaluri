@@ -45,10 +45,11 @@ nav ul{
 nav ul li a{
     text-decoration: none;
     color: black;
+    font-size: 20px
 }
 
 nav ul li a:hover{
-    color: rgba(232, 50, 50, 0.774);
+    color: rgb(164, 57, 82);
     border-radius: 10px;
     
 }
@@ -65,13 +66,23 @@ nav ul li a:hover{
     background-color: initial;
 }
 
+.sign:hover{
+    background-color:rgb(164, 57, 82);
+    border-radius: 8px;
+    color: white;
+}
+
 
 .login{
-    background-color: #FF9500;
+    background-color:#FF9500;
     color: white;
     border: none;
     padding: 14px 34px 14px 34px;
     border-radius: 8px;
+}
+
+.login:hover{
+    background-color: rgb(164, 57, 82);
 }
 
 .sctn1{
@@ -110,6 +121,11 @@ font-size: 38px;
     border-radius: 8px;
     border: none;
     margin-right: 7px;
+    cursor: pointer;
+}
+
+.btn1:hover{
+    background-color: rgb(164, 57, 82);
 }
 
 
@@ -118,6 +134,12 @@ font-size: 38px;
     border: none;
     padding: 18px 24px;
     border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn2:hover{
+    background-color: rgb(164, 57, 82);
+    color: white;
 }
 
 .socialmedias{
@@ -150,6 +172,12 @@ font-size: 38px;
     background-color: white;
     border: none;
     border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn3:hover{
+        background-color: rgb(164, 57, 82);
+        color: white;
 }
 
 .cards{
@@ -217,6 +245,12 @@ font-size: 38px;
     width: 685px;
     border: none;
     padding: 10px;
+    cursor: pointer;
+}
+
+.btn5:hover{
+    background-color: rgb(164, 57, 82);
+    color: white;
 }
 /* end of section5 */
 /* start of section 6 */
@@ -251,6 +285,13 @@ font-size: 18px;
     border-radius: 8px;
     padding: 18px 24px 18px 24px;
     border: none;
+    cursor: pointer;
+}
+
+.btn6:hover{
+    background-color: rgb(164, 57, 82) ;
+    color: white;
+
 }
 
 .flex-container{
@@ -262,3 +303,250 @@ font-size: 18px;
     font-size: 34px;
 }
 
+
+.sctn5{
+    margin-top: 100px;
+}
+
+.pricing{
+    font-size: 34px;
+}
+
+.buttons3{
+    background-color: white;
+    height: 40px;
+    padding: 10px;
+}
+
+.btn7{
+    padding: 14px 30px 14px 30px;
+    border-radius: 8px;
+    background-color:#FF9500;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btn7:hover{
+    background-color: rgb(164, 57, 82);
+}
+
+.btn8{
+    padding: 14px 30px 14px 30px;
+    border-radius: 8px;
+    background-color:white;
+    border: none;
+    cursor: pointer;
+}
+
+.btn8:hover{
+    background-color: rgb(164, 57, 82);
+    color: white;
+}
+
+.cards4{
+    margin-top: 50px;
+    background-color:white;
+    width:639px;
+    padding: 69px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.btn9{
+    background-color:#FFF9F0;
+    border-radius: 6px;
+    border: 1px solid #FFEACC;
+    width: 480px;
+    padding: 12px 22px 12px 22px;
+}
+
+.dlr{
+    font-size: 70px;
+}
+
+.features{
+    padding-top: 10px;
+    background-color: white;
+    height: 490px;
+    border-radius: 10px;
+}
+
+.btn10{
+    background-color: white;
+    border: 1px solid #F1F1F3;
+    border-radius: 7px;
+ padding: 8px;
+ width: 340px;
+ text-align: left;
+ margin-top: 8px;
+}
+
+.yes{
+    background-color: #FFF9F0;
+    padding: 6px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.no{
+    padding: 6px;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+}
+
+.btn11{
+    background-color: orange;
+    color: white;
+    width: 568px;
+    margin-top: 28px;
+    padding: 14px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn11:hover{
+    background-color:rgb(164, 57, 82) ;
+}
+
+.sctn6{
+    background-color: white;
+    width: 1600px;
+    margin: 100px auto;
+}
+
+.sctn6 h1{
+    font-size: 22px;
+}
+
+.text{
+    padding: 99px 240px;
+}
+
+.btn12{
+    background-color: white;
+    border: 1px solid #F1F1F3;
+    padding: 18px 24px 18px 24px;
+    border-radius: 10px;
+    margin-top:26px;
+}
+
+.card5{
+    padding-top: 149px;
+    padding-left: 67px;
+    margin-bottom: 101px;
+}
+
+.row3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn13{
+    width: 561px;
+    height: 63px;
+    border-radius: 8px;
+    border: 1px solid antiquewhite;
+    background-color: white;
+    text-align: left;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.pl{
+    margin-left: 244px;
+}
+
+.arrw2{
+    background-color: white;
+    border-radius: 100%;
+    margin-left: 244px;
+    padding: 4px;
+}
+
+.btn14{
+    width: 561px;
+    height: 63px;
+    text-align: left;
+    padding: 20px;
+    border-radius: 8px;
+    border: none;
+}
+
+footer{
+    padding: 30px;
+}
+
+.fttr{
+    margin-top: 150px;
+    background-color: white;
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.roww{
+    display: flex;
+    gap: 600px;
+}
+
+.ftter2{
+    display: flex;
+    gap: 100px;
+}
+
+.face{
+    background-color:#F7F7F8 ;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* coureses html */
+
+.sctn1-2{
+    margin-top: 100px;
+}
+
+.sctn1-2 h1{
+    font-size: 40px;
+    padding: 0 73px;
+}
+
+.sctn1-2 p{
+    font-size: 20px;
+}
+
+.sctn2-2{
+    background-color: white;
+    width: 1600px;
+    margin: 0 auto;
+    padding: 30px;
+    margin-top: 100px;
+
+}
+
+.btn15{
+    width: 128px;
+    background-color: #F1F1F3;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn15:hover{
+    background-color: rgb(164, 57, 82);
+    color: white;
+}
+.imagess{
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+}
+
+.btn16{
+    background-color: white;
+    padding:14px;
+    border-radius: 8px;
+    border: 1px solid #F1F1F3;
+}

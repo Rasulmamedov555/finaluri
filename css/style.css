@@ -509,7 +509,7 @@ footer{
 }
 
 .sctn1-2 h1{
-    font-size: 40px;
+    font-size: 50px;
     padding: 0 73px;
 }
 
@@ -526,22 +526,11 @@ footer{
 
 }
 
-.btn15{
-    width: 128px;
-    background-color: #F1F1F3;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-}
 
-.btn15:hover{
-    background-color: rgb(164, 57, 82);
-    color: white;
-}
 .imagess{
     margin-top: 50px;
     display: flex;
-    gap: 30px;
+    gap: 81px;
 }
 
 .btn16{
@@ -549,4 +538,53 @@ footer{
     padding:14px;
     border-radius: 8px;
     border: 1px solid #F1F1F3;
+}
+
+.curricullum{
+    border: 1px solid #F1F1F3;
+}
+
+.cards5{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.smallcards{
+    border: 1px solid #F1F1F3;
+    padding: 20px;
+    width: 221px;
+}
+
+.smallcards p{
+    font-size: 22px;
+}
+
+.sctn2-2 p{
+    font-size: 22px;
+}
+
+.foter-p{
+    text-align: center;
+}
+
+.mt-150{
+    margin-top: 100px;
+}
+
+.btn17{
+    padding: 18px 24px 18px 24px;
+    border-radius: 8px;
+    border: 1px solid #F1F1F3;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn17:hover{
+    background-color: rgb(164, 57, 82);
+    color:white;
+}
+
+
+.didiimg{
+    margin-top: 100px;
 }

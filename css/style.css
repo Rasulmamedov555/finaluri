@@ -1,4 +1,6 @@
 
+
+
 body{
     background-color: #F1F1F3;
 }
@@ -54,6 +56,10 @@ nav ul li a:hover{
     
 }
 
+.mt-100{
+    margin-top: 100px;      
+}
+
 .buttons{
     display: flex;
     margin-left:800px;
@@ -85,8 +91,9 @@ nav ul li a:hover{
     background-color: rgb(164, 57, 82);
 }
 
+
+
 .sctn1{
-    margin-top: 100px;
     text-align: center;
 }
 
@@ -143,25 +150,20 @@ font-size: 38px;
 }
 
 .socialmedias{
-    margin-top: 100px;
     background-color: white;
     height: 154px;
     display: flex;
     align-items: center;
 }
 
-.foto{
-    margin-top: 100px;
-}
+
 .row{
     display: flex;
     gap: 650px;
 }
 /* end of section1 */
 /* start of section2 */
-.sctn2{
-    margin-top: 100px
-}
+
 
 .sctn2 h1{
      font-size: 40px;
@@ -221,10 +223,6 @@ font-size: 38px;
     padding: 47px;
 }
 
-.sctn3{
-    margin-top: 100px;
-}
-
 .coursess{
     font-size: 35px;
 }
@@ -254,9 +252,7 @@ font-size: 38px;
 }
 /* end of section5 */
 /* start of section 6 */
-.sctn4{
-    margin-top: 100px;
-}
+
 
 .testimonials{
     width: 707px;
@@ -301,11 +297,6 @@ font-size: 18px;
 
 .monials{
     font-size: 34px;
-}
-
-
-.sctn5{
-    margin-top: 100px;
 }
 
 .pricing{
@@ -480,10 +471,10 @@ footer{
 }
 
 .fttr{
-    margin-top: 150px;
     background-color: white;
     width: 1600px;
-    margin: 0 auto;
+    margin: auto;
+    margin-top: 100px;
 }
 
 .roww{
@@ -502,11 +493,11 @@ footer{
     border-radius: 8px;
 }
 
-/* coureses html */
 
-.sctn1-2{
-    margin-top: 100px;
-}
+
+
+
+/* coureses html */
 
 .sctn1-2 h1{
     font-size: 50px;
@@ -567,9 +558,6 @@ footer{
     text-align: center;
 }
 
-.mt-150{
-    margin-top: 100px;
-}
 
 .btn17{
     padding: 18px 24px 18px 24px;
@@ -584,7 +572,315 @@ footer{
     color:white;
 }
 
-
-.didiimg{
-    margin-top: 100px;
+.card8{
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white;
+    width: 700px;
+    margin-top: 20px;
 }
+
+.card8 h1{
+    font-size: 60px;
+    text-align: right;
+}
+
+.mshobeli{
+    margin-top: 10px;
+    border: 1px solid #F1F1F3;
+    padding: 23px;
+    border-radius: 8px;
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.shvilii2{
+    border: 1px solid #F1F1F3;
+    background-color: #F7F7F8;
+    border-radius: 6px;
+    padding: 14px;
+    font-size: 16px;
+    width: 140px;
+    color: gray;
+    text-align: center;
+}
+
+/* COURSES OPEN PAGE DASAMTAVREBELI MAQVSSSSSS */
+
+/* pricing */
+
+.btns{
+    text-align: center;
+}
+
+
+/* about page */
+
+
+.fs-40{
+    font-size: 40px;
+}
+
+.fs-25{
+    font-size: 25px;
+}
+
+
+.texxt{
+    margin-top: 50px;
+}
+
+
+.mshobeli2{
+    background-color: white;
+    padding: 20px;
+}
+
+.bgi{
+    background-image: url(/img/images/shape.png);
+    width: 301px;
+}
+
+.shvilii3 h1{
+    font-size: 57px;
+}
+
+.shvilii4{
+    display: flex;
+    align-items: center;
+}
+
+.btn15{
+    background-color: #FF9500;
+    color: white;
+    padding: 14px;
+    border-radius: 8px;
+    border: 1px solid #FF9500;
+}
+
+@media only screen and (max-width: 1400px){
+
+    .container{
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+
+.kacidaqali{
+    width: 1400px;
+}
+
+.sctn2 .cards{
+width:437px ;
+height: 463px;
+}
+
+.cards img{
+    margin-left: 330px;
+   }
+
+   .card{
+    width: 582px;
+}
+
+.card img{
+    width: 605px;
+}
+
+.btn5{
+    width: 597px;
+}
+   
+.cards4{
+width: 532px;
+}
+
+.sctn6{
+    width: 1400px;
+}
+
+.fttr{
+    width: 1400px;
+}
+
+.scmd{
+    width: 197px;
+}
+
+.buttons{
+    margin-left: 633px;
+}
+
+.sctn2-2{
+    width: 1400px;
+}
+
+.sctn2-2 img{
+    width:400px ;
+}
+
+.zoma{
+    width: 700px;
+}
+
+
+}
+
+
+    @media only screen and (max-width:768px){
+        .container{
+            max-width: 768px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+    
+        
+    
+        .orange{
+            padding: 20px;
+            border-radius: 6px;
+            font-size: 18px;
+            max-width: 768px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    
+        nav{
+            display: flex;
+            padding: 20px;
+            justify-content: baseline;
+            align-items: center;
+        }
+    
+        .hide{
+            visibility: hidden;
+        }
+
+        .kacidaqali{
+        width: 768px;
+        }
+    
+      
+       
+       .buttons{
+        margin-left: 20px;
+       }
+
+       .login{
+        visibility: hidden;
+       }
+
+      .sign{
+        visibility: hidden;
+      }
+
+       .socialmedias{
+        width: 768px ;
+       }
+
+       .scmd{
+        width: 250px;
+       }
+
+       .row{
+        flex-direction: column;
+        gap: 0;
+        align-items: center;
+       }
+
+       .row1{
+        flex-direction: column;
+        align-items: center;
+
+       }
+
+       .row2{
+        flex-direction: column;
+        align-items: center;
+       }
+
+       .flex-container{
+        flex-direction: column;
+        align-items: center;
+       }
+
+       .testimonials{
+        width: 300px;
+        align-items: center;
+       }
+
+       .row3{
+        flex-direction: column;
+        align-items: center;
+       }
+
+       .roww{
+        flex-direction: column;
+        gap: 0;
+       }
+
+.sctn6{
+    width: 768px;
+}
+
+
+.fttr{
+    width: 768px;
+}
+
+.ftter2{
+    flex-direction: column;
+gap: 0;
+}
+
+
+.lorem{
+width: 200px;
+}
+
+.pricing{
+    text-align: center;
+}
+
+.monials{
+    text-align: center;
+}
+
+.coursess{
+    text-align: center;
+}
+
+.btn3{
+    padding: 24px;
+    background-color:white ;
+    border: 1px solid white;
+}
+
+.sctn2-2{
+    width: 768px;
+}
+
+.imagess{
+    gap: 10px;
+}
+
+.imagess img{
+    width: 230px;
+}
+
+.cards5{
+    flex-direction: column;
+}
+
+.curricullum{
+    border: none;
+}
+
+.didiimage{
+    width: 768px;
+}
+
+}
+
+
+
